@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+}
+
+table {
+  min-width: 85vh;
+}
+
+td {
+  padding-bottom: 1rem;
+  text-align: right;
+}

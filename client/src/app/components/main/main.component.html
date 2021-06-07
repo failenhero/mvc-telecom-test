@@ -1,0 +1,70 @@
+<div class="container">
+
+  <mat-card>
+
+  <div class="container-item">
+
+    <form [formGroup]="addStackItemForm" (ngSubmit)="addStackItem()">
+      <table>
+
+
+        <tr>
+          <td>Введите текст нового элемента стэка:</td>
+          <td>
+              <input matInput type="text" formControlName="itemText">
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              mat-raised-button
+              type="submit"
+              [disabled]="addStackItemForm.invalid">
+              <mat-icon>add</mat-icon>
+            </button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Узнать последний элемент стэка не удаляя его:</td>
+          <td>
+              {{peekItem}}
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              mat-raised-button
+              type="button"
+              (click)="peek()">
+              Peek
+            </button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Узнать последний элемент стэка и удалить его:</td>
+          <td>
+              {{popItem}}
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              mat-raised-button
+              type="button"
+              (click)="pop()">
+              Peek
+            </button>
+          </td>
+        </tr>
+
+      </table>
+    </form>
+  </div>
+
+  </mat-card>
+</div>

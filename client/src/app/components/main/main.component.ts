@@ -34,18 +34,22 @@ export class MainComponent implements OnInit {
       Text:this._itemText
     }
 
-    this.httpService.push(newItem).subscribe();
+    this.httpService.push(newItem).subscribe(res => {
+      this.initForm();
+    });
   }
 
   peek() {
     this.httpService.peek().subscribe(res => {
       this.peekItem = res;
+      this.initForm();
     })
   }
 
   pop() {
     this.httpService.pop().subscribe(res => {
       this.popItem = res;
+      this.initForm();
     })
   }
 

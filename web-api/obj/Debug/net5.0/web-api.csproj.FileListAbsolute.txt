@@ -27,3 +27,10 @@ C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-te
 C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\obj\Debug\net5.0\ref\web-api.dll
 C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\obj\Debug\net5.0\web-api.pdb
 C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\obj\Debug\net5.0\web-api.genruntimeconfig.cache
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\System.Web.Http.WebHost.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\yuryo\Desktop\WebHacking\Тестовые проекты\mvc-telecom-test\web-api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

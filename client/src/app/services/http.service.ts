@@ -9,7 +9,7 @@ import StackItem from '../Interfaces/StackItem-interface';
 })
 export class HttpService {
 
-  private readonly mainApiUrl: string = 'http://localhost:4200/api/MyStack';
+  private readonly mainApiUrl: string = 'https://localhost:5001/api/MyStack';
 
   constructor(
     private http: HttpClient
